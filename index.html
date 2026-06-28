@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Pofile - Adiele Theresa </title>
+
+    <style>
+        header{
+           border-bottom: 1px solid black;
+           display: flex;
+           justify-content: space-between; 
+        }
+
+        header ul{
+            display: flex;
+            gap: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <!-- SIDEBAR NAVIGATION -->
+    <header>
+        <h1>Adiele Theresa</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#hobbies">Hobbies</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <h1>Welcome to my Profile</h1>
+            <img src="images.html/photo_2026-06-27.jpg" alt="Adiele Theresa" width="150">
+            <p>Hi, my name is <strong>Adiele Theresa</strong>. I am a Tech Enthusiast, and a student at ENSG currently learnin full-stack web development at Turing Tecg LLC.</p>          
+        </section>
+        <br><br>
+
+        <section id="about">
+            <h2>About Me</h2>
+            <p>I am a serving <strong>Corps member</strong>, an intern <strong>Cardiac Physiologist</strong>. I have always developed keen interest in taking up Tech courses. <em> Web Development</em> seemed to be the tech skill i got drawn to.</p>
+            <p>This portfolio reflects my journey, projects, and commitment to excellence. I hope you enjoy exploring my work.</p>
+            <br><br>
+
+           <h3>Personal Facts</h3>
+           <ol>
+              <li>I believe in lifelong learning ans seeking oppurtunites to improve my technical skills.</li>
+              <li>I am a team player who values integrity, professionalism, and meaningful collaboration.</li>
+              <li>I enjoy taking new challenges that help me grow personally and professionally</li>
+           </ol>
+
+        </section>
+
+        <section id="education">
+             <h2>Education</h2>
+             <table>
+                <caption>Academic History</caption>
+                <thead>
+                    <tr>
+                        <th>School Name</th>
+                        <th>Year</th>
+                        <th>Qualification/Level</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>University Of Nigeria Nsukka</td>
+                        <td>2019-2024</td>
+                        <td>BSc. Physiology</td>
+                    </tr>
+                    <tr>
+                        <td>Falomo Senior High School</td>
+                        <td>2013-2016</td>
+                        <td>WAEC / SSCE</td>
+                    </tr>
+                    <tr>
+                        <td>Falomo Junior High School</td>
+                        <td>2010-2013</td>
+                        <td>JSCE</td>
+                    </tr>
+                </tbody>
+             </table>
+        </section>
+        
+        <section id="hobbies">
+            <h2>Hobbies</h2>
+            <p>Below are a list of my Hobbies:</p>
+            <ul>
+                <li>Cooking</li>
+                <li>Singing</li>
+                <li>Playing and watching football</li>
+                <li>Reading</li>
+                <li>Learning new stuff</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Please contact me for more details</h2>
+            <form>
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" placeholder="Your full name"><br>
+                
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" placeholder="your@mail.com"><br>
+
+                <label for="message">Message:</label>
+                <textarea name="message" id="message" placeholder="Your message here..." rows="5"></textarea><br>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+
+    </main>
+</body>
+</html>
